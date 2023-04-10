@@ -15,3 +15,6 @@ run2:
 run3:
 	rustc ./no_module_code/3_custom_types.rs -o ./bin/3_custom_types
 	./bin/3_custom_types
+run4:
+	rustc ./no_module_code/4_variable_binding.rs -o ./bin/4_variable_binding
+	./bin/4_variable_binding
