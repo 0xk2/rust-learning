@@ -18,3 +18,6 @@ run3:
 run4:
 	rustc ./no_module_code/4_variable_binding.rs -o ./bin/4_variable_binding
 	./bin/4_variable_binding
+run5:
+	rustc ./no_module_code/5_types.rs -o ./bin/5_types
+	./bin/5_types
